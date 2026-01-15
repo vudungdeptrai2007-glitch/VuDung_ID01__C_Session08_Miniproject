@@ -1,0 +1,97 @@
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background: #ffd9b3;
+  text-align: center;
+    justify-content: center;
+}
+
+.menu-item {
+  padding: 15px 25px;
+  transition: background-color 0.3s, transform 0.3s;
+
+
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #a0522d;
+  font-weight: bold;
+
+}
+
+
+.menu-item:hover {
+  background-color: #8b4513;
+  transform: scale(1.1);
+}
+
+.menu-item:hover a {
+  color: #ffffff;
+}
+
+body{
+    background-color: #efe8d0;
+}
+
+.banner{
+    background-color: #f2d879;
+    color: rgb(95, 60, 7);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    padding: 10px;
+}
+.menu{
+    background-color: rgb(248, 204, 128);
+    overflow: hidden;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+.menu a{
+ color: rgb(95, 60, 7);
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff6ec;
+}
+
+.doctor-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 60px;
+}
+
+.doctor-card {
+  background: #ffffff;
+  width: 260px;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.doctor-card h3 {
+  margin: 0 0 10px;
+  color: #a55200;
+}
+
+.doctor-card p {
+  margin: 0;
+  color: #c36b00;
+  font-size: 14px;
+}
+
+.doctor-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
